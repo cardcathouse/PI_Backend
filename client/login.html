@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Iniciar sesión</h1>
+        <form action="../server/login.php" method="POST">
+            <input type="email" name="email" placeholder="Correo electrónico" required><br>
+            <input type="password" name="password" placeholder="Contraseña" required><br>
+            <label><input type="checkbox" name="remember"> Recordarme</label><br>
+            <button type="submit" class="button">Iniciar sesión</button>
+        </form>
+    </div>
+</body>
+</html>
